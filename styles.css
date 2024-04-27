@@ -1,0 +1,237 @@
+:root {
+  /*Color Palette*/
+  --sky-blue: #86CFF9;
+  --alp-green: #386B4D;
+  --white-smoke: #F5F5F5;
+  --jet: #343434;
+
+  /*Fonts*/
+  --font-neuzeit: 'neuzeit-grotesk-extra-conden', sans-serif;
+  --font-bebas: "bebas-neue-by-fontfabric", sans-serif;
+  --font-rafaella-shadow: "rafaella-shadow", sans-serif;
+}
+
+body {
+  background-color:var(--white-smoke);
+  height: 100%;
+}
+
+.hero {
+    background-image: url('swiss-images/swiss-valley.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+  font-family: var(--font-rafaella-shadow);
+  font-weight: 700;
+  font-style: normal;
+  color: var(--alp-green);
+  font-size: 96px;
+  margin-bottom: 10;
+}
+
+h1 {
+  font-size: 44px; 
+  margin-top: 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  font-family: var(--font-bebas);
+  color: #343434;
+  font-weight: 600;
+  font-style: normal;
+}
+
+h2 {
+  font-family: var(--font-bebas);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 46px;
+  text-align: center;
+  color: var(--white-smoke);
+}
+
+h3 {
+  font-family: var(--font-bebas);
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+  color: var(--alp-green);
+  padding-right: 20px;
+}
+
+p {
+  text-align: left;
+  font-family: var(--font-neuzeit);
+  font-size: 20px;
+}
+
+.topnav {
+  margin-top: 20px;
+  margin-left: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: auto;
+  overflow: hidden;
+}
+.topnav ul { 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.topnav li {
+  margin-right: 20px;
+  display: inline;
+}
+
+.topnav a {
+  float: left;
+  font-family: var(--font-bebas);
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  color: #343434;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.topnav a:hover {
+  text-decoration: underline;
+}
+
+.intro {
+  grid-column: 1/-1;
+  background-color: var(--alp-green);
+  padding: 20px;
+}
+.intro-text {
+  font-family:var(--font-neuzeit);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--white-smoke);
+  text-align: center;
+}
+
+.col {
+  float: left;
+  width: 50%;
+  padding-top: 50px;
+}
+
+.col p {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.row-c:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.colu, p, h2, img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding-top: 50px;
+}
+
+.colu p {
+  text-align: left;
+  margin: 0;
+  padding-left: 70px;
+  width: 50%;
+}
+
+.colu h2 {
+  color: #386B4D;
+  text-align: left;
+  margin: 0;
+  padding-left: 40px;
+  width: 50%;
+}
+
+.colu img {
+  width: 500px;
+  height: 270px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col2 {
+  float: left;
+  width: 50%;
+  padding-top: 50px;
+}
+
+.col2 p {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  padding-left: 10%;
+}
+
+
+.contact {
+  padding: 20px;
+  color: #386B4D;
+  float: left;
+}
+
+form{
+	width: 350px;
+	margin: 16px auto;
+	padding: 16px;
+	background-color: rgba(240, 148, 31, 0.6);
+	color: #363432;
+	border-radius: 4px;
+}
+
+
+footer, p {
+  padding: 2rem 1rem 1rem;
+  text-align: center;
+  clear: both;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; 
+}
+
+
+
+
+
+
+
